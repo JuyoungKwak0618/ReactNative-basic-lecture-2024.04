@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
   item: {padding:2, fontSize:14, height:30}
 })
 
-export default function Exam() {
+export default function FruitList() {
   const [fruits, setFruits] = useState([]);
   const [text, setText] = useState('');
   const handleSubmit = () => {
